@@ -6,6 +6,7 @@ using namespace std;
 
 class DynamicList
 {
+
 private:
 
 int list_capacity; //max number of integers that the list can currently store
@@ -26,7 +27,7 @@ void expand_list(); // doubles capacity of list onece list size > 50%
 
 void shrink_list(); // cuts capacity of list in half once list size is less than 25% of capacity
 
-int get_size(); // returns size of list
+void print_list(); // formats and prints list information and  contents of list
 
-void print_list(); // prints contents of list
+~DynamicList();  // destructor. deletes any existing dynamically allocated lists
 };
