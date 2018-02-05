@@ -1,3 +1,7 @@
+// Author: Damien Sudol
+// Program: HW2
+// Version 1.0
+
 #include "DynamicList.h"
 #include <iostream>
 #include <cstring>
@@ -12,7 +16,7 @@ int main()
 {
 
 // string will hold value of inFile line
-string command = 0;
+string command = "";
 // create infile object and open stream to read from "input_trace.txt" 
 ifstream inFile;
 inFile.open("input_trace.txt");

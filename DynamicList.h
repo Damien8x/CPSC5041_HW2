@@ -1,5 +1,10 @@
+// Author: Damien Sudol
+// Program: HW2
+// Version 1.0
+
 #include <iostream>
 #include <string>
+
 
 using namespace std;
 

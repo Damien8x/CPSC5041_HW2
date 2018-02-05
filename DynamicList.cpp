@@ -1,3 +1,7 @@
+// Author: Damien Sudol
+// Program: HW2
+// Version: 1.0
+
 #include "DynamicList.h"
 #include <string>
 #include <iostream>
