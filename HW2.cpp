@@ -17,6 +17,7 @@ int main()
 
 // string will hold value of inFile line
 string command = "";
+
 // create infile object and open stream to read from "input_trace.txt" 
 ifstream inFile;
 inFile.open("input_trace.txt");
@@ -60,15 +61,16 @@ void fileCommand(string command, DynamicList & list)
 	{
 		// try/catch to avoid crash for invalid values in file
 		try{
-			// set size of digits for added integer
-			// subtract 4 from command to account for "ADD "
-			int strSize = command.length() -4;
-			// set value of command to just string value to be added to list
-			command = command.substr(4, strSize);
-			// convert string to corresponding integer value
-			int addInt = stoi(command);
-			// add integer to list
-			list.add_item(addInt);
+		// set size of digits for added integer
+		// subtract 4 from command to account for "ADD "
+		int strSize = command.length() -4;
+		// set value of command to just string value to be added to list
+		command = command.substr(4, strSize);
+		// convert string to corresponding integer value
+		int addInt = stoi(command);
+		// add integer to list
+		list.add_item(addInt);
 		}catch(exception e){cout << "error: command not recognized" << endl;}
 	}
+
 }

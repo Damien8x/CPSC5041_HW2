@@ -31,7 +31,7 @@ run program instructions:
 		Enter Directory HW2 with above contents
 	step 2)
 		compile cpp files with the following command
-		"g++ DynamicList.cpp HW2.cpp"
+		"g++ -std=c++11 DynamicList.cpp HW2.cpp"
 	step 3)
 		run program with the following command
 		"./a.out"

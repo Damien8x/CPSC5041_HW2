@@ -84,7 +84,7 @@ void DynamicList::print_list()
 {
 cout << "List max capacity = " << list_capacity << endl;
 cout << "List current size = " << size << endl;
-cout << "List contents ";
+cout << "List contents: ";
 	if(size == 0)
 		cout << "\n";
 	else
